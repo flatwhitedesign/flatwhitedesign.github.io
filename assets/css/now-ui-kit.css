@@ -6049,6 +6049,10 @@ img {
   width: 100%;
 }
 
+.page-header .content-left .text-phone{
+  display: none;
+}
+
 .page-header footer {
   position: absolute;
   bottom: 0;
@@ -7249,6 +7253,30 @@ img {
   }
   .page-header .container h6.category-absolute {
     width: 90%;
+  }
+  .page-header .content-left {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    z-index: 2;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333333;
+    padding: 0 15px;
+    width: 80%;
+    max-width: 880px;
+  }
+  .page-header .content-left img:first-child{
+    display: none;
+  }
+  .page-header .content-left .text-phone{
+    display: block;
+  }
+  
+  .page-header .page-header-image {
+    background-position: 90% bottom;
   }
 }
 

@@ -499,6 +499,10 @@
   padding-bottom: 0;
 }
 
+.spacing{
+  margin-bottom: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .section-navbars .navbar-collapse {
     display: none !important;

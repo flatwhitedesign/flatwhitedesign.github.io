@@ -503,6 +503,9 @@
   margin-bottom: 100px;
 }
 
+.modal{
+  padding-top: 80px;
+}
 
 @media screen and (max-width: 991px) {
   .section-navbars .navbar-collapse {

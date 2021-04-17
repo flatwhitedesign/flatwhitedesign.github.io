@@ -5247,7 +5247,7 @@ img {
 .modal-content .modal-header button {
   position: absolute;
   right: 27px;
-  top: 30px;
+  top: 10px;
   outline: 0;
 }
 
@@ -5257,10 +5257,10 @@ img {
 }
 
 .modal-content .modal-body {
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 16px;
-  padding-left: 24px;
+  padding-top: 16px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
   line-height: 1.9;
 }
 
@@ -6871,7 +6871,7 @@ img {
     text-align: center;
   }
   .footer .copyright {
-    text-align: right;
+    text-align: center;
   }
   .section-nucleo-icons .icons-container {
     margin-top: 65px;
@@ -7196,8 +7196,8 @@ img {
     position: relative;
     top: 1px;
   }
-  .footer .copyright {
-    float: right;
+  .footer .copyright{
+    text-align: center;
   }
 }
 
